@@ -1,0 +1,12 @@
+module Tightrope
+  ERROR_OK                         = 0
+  ERROR_PARAM_CHANNEL_MISSING      = 1
+  ERROR_PARAM_MESSAGE_MISSING      = 2
+  ERROR_PARAM_ACTION_MISSING       = 3
+  ERROR_CHANNEL_ALREADY_SUBSCRIBED = 4
+  ERROR_CLIENT_HAS_NOTSUBSCRIBED   = 5
+  ERROR_PARAM_CHANNEL_NOT_UNIQUE   = 6
+
+  class LoginError < Exception
+  end
+end
